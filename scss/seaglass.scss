@@ -1,0 +1,43 @@
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
+
+
+
+header.main-header {
+  background-color: rgb(144, 208, 255);
+  // border-bottom: 1px solid $gray-light;
+  z-index: 1;
+
+  a.brand-logo {
+    text-decoration: none;
+    color: $headings-color;
+  }
+}
+
+nav.main-nav {
+  border-bottom: 1px solid $gray-light;
+  box-shadow: 0 5px 5px -5px $gray;
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: -2px;
+    margin-top: -1px;
+    font-size: $font-size-large;
+
+    li {
+      display: inline;
+      border-right: 1px solid $gray;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      a {
+        padding: 0px 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+
+    block title
+      title Sea Glass Jewelry by Gina Cowen
+
+    link(rel="stylesheet", href="/css/seaglass.css")
+
+  body
+    header.main-header
+      .container-fluid
+        .col-md-12
+          .pull-right Contact:&nbsp;
+            a(href="mailto:ginac@dircon.co.uk") ginac@dircon.co.uk
+          a.brand-logo(href="/")
+            h1 Sea Glass Jewelry
+              small 
+                br
+                | by Gina Cowen
+        
+    nav.main-nav
+      ul
+        li 
+          a(href="/about") About
+        li 
+          a(href="/seaglass") Seaglass
+        li 
+          a(href="/press") Press
+        li 
+          a(href="/shop") Shop
+        li 
+          a(href="/gallery") Gallery
+
+
+    .container
+      block content
